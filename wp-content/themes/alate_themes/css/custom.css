@@ -337,12 +337,16 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
 }
 .tech-advices p:nth-child(2) {
   margin-bottom: 30px;
+  margin-top: 10px;
 }
 
 .tabs i {
   color: #ffff;
 }
 
+.swiper.ProjectSwiper {
+  margin-bottom: 70px;
+}
 .project-img img {
   transition: 0.3s ease;
   cursor: pointer;
@@ -356,8 +360,15 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
 .list-tab.show {
   display: block !important;
 }
+img.tech-img.img-fluid {
+  width: 55%;
+}
 .list-tab.hide {
   display: none;
+}
+.des p {
+  font-size: 14px;
+  margin-bottom: 10px;
 }
 
 .svg-decor {
