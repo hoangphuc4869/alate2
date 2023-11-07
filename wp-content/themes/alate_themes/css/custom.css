@@ -346,6 +346,8 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
 .project-img img {
   transition: 0.3s ease;
   cursor: pointer;
+  width: 100%;
+  height: auto;
 }
 
 .project-img:hover img {
