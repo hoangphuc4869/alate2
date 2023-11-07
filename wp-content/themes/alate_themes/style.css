@@ -1,0 +1,92 @@
+/*
+    theme name: Alate
+*/
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+a {
+  color: #000;
+  text-decoration: none;
+}
+.sub-header {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  align-items: center;
+}
+.sub-header-wrap {
+  padding: 10px;
+  background-color: #fff;
+}
+.sub-header a {
+  color: #062d4c;
+}
+i.fa-brands.fa-facebook {
+  font-size: 30px;
+}
+.trp-language-switcher {
+  width: fit-content !important;
+}
+.trp-language-switcher > div {
+  border: none !important;
+}
+
+.main-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.trp-ls-shortcode-current-language {
+  width: 80px !important;
+}
+.main-menu-wrap {
+  padding: 15px 0 40px 0;
+}
+
+ul.menu-pc {
+  padding-left: 0;
+  margin-bottom: 0;
+  display: flex;
+  gap: 50px;
+  cursor: pointer;
+}
+
+.menu-pc li a {
+  text-transform: uppercase;
+  color: #062d4c;
+  font-weight: 500;
+}
+
+.main-footer-wrap {
+  padding: 100px 0;
+  background: #062d4c;
+  color: #fff;
+}
+
+.phone,
+.email,
+.address {
+  font-weight: 700;
+}
+.phone span,
+.email span,
+.address span {
+  font-weight: 100;
+}
+
+.sub-footer {
+  padding: 12px;
+  text-align: center;
+  font-size: 14px;
+}
