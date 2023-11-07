@@ -339,6 +339,11 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
   margin-bottom: 30px;
   margin-top: 10px;
 }
+.RoomImgs img {
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
 
 .tabs i {
   color: #ffff;
