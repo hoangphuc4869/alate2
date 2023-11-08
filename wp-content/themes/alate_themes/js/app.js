@@ -131,3 +131,45 @@ if (more) {
     }
   });
 }
+
+$(".grid-imgs").magnificPopup({
+  delegate: "a",
+  type: "image",
+  gallery: {
+    enabled: true,
+  },
+  zoom: {
+    enabled: true,
+
+    duration: 300,
+    easing: "ease-in-out",
+  },
+});
+
+$(`input[type="number"]`).each(function (i, obj) {
+  $(this).before(
+    '<span class="selectNumber__increase selectNumber__change">+</span>'
+  );
+  $(this).after(
+    '<span class="selectNumber__decrease selectNumber__change">-</span>'
+  );
+
+  $(this).val(0);
+});
+
+$(".selectNumber__increase").on("click", function (e) {
+  $oldValue = $(this).next("input").val();
+
+  $newValue = parseInt($oldValue) + 1;
+  $(this).next("input").val($newValue);
+});
+
+$(".selectNumber__decrease").on("click", function (e) {
+  var $input = $(this).prev("input");
+  var $oldValue = parseInt($input.val());
+
+  if ($oldValue > 0) {
+    var $newValue = $oldValue - 1;
+    $input.val($newValue);
+  }
+});

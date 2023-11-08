@@ -66,6 +66,10 @@ iframe {
   width: 70%;
 }
 
+.room-rules ul {
+  padding-left: 0;
+}
+
 .room-rules li {
   color: #454545;
   text-align: justify;
@@ -94,6 +98,44 @@ iframe {
 .facility {
   margin-bottom: 20px;
 }
+.text-label {
+  color: #807e7e;
+  text-align: justify;
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  text-transform: uppercase;
+  margin: 20px 0 10px 0;
+}
+
+.booking input,
+.booking select,
+.booking textarea {
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid;
+}
+
+.booking input[type="number"] {
+  border-bottom: none;
+  width: 100px;
+  text-align: center;
+}
+
+input#book-btn {
+  border: none;
+  width: 100%;
+  padding: 10px 30px;
+  margin-top: 30px;
+}
+
+.booking {
+  padding: 50px;
+  /* background: #ccc; */
+  box-shadow: 0 0 5px 0;
+}
 
 .facility span {
   color: #454545;
@@ -106,9 +148,17 @@ iframe {
   margin-left: 15px;
 }
 
+.facility {
+  display: flex;
+  align-items: center;
+}
 .grid-item:first-child {
   grid-column: 1 /3;
   grid-row: 1 / 3;
+}
+
+.facility svg {
+  width: 30px;
 }
 
 .grid-item img {
