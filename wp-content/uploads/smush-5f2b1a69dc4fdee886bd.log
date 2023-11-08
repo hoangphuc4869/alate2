@@ -1,0 +1,30 @@
+[2023-11-08 03:53:18 : INFO] - Re_Smush_It_Task with attachment ID : 226, autocreated on : November 08, 2023 03:53:16 
+[2023-11-08 03:58:49 : INFO] - A total of 1 tasks of type smush found and will be processed in this iteration 
+[2023-11-08 03:58:49 : DEBUG] - Lock option (updraft_lock_smush, wp_options) was created in the database 
+[2023-11-08 03:58:49 : INFO] - Lock (updraft_lock_smush, wp_options) acquired after initialising the database 
+[2023-11-08 03:58:49 : INFO] - Processing task with ID : 53, and type 'smush' 
+[2023-11-08 03:58:49 : INFO] - Re_Smush_It_Task with attachment ID : 226, autocreated on : November 08, 2023 03:53:16 
+[2023-11-08 03:58:49 : INFO] - File: Group-153.png, Compression quality: 92 
+[2023-11-08 03:58:52 : INFO] - Backing up the original image - 2023/11/Group-153-updraft-pre-smush-original.png 
+[2023-11-08 03:58:52 : INFO] - There were no WebP conversion tools found on your server. 
+[2023-11-08 03:58:52 : INFO] - Successfully optimized the image - C:\xampp\htdocs\alate/wp-content/uploads/2023/11/Group-153.png.The file was compressed from 63.35 KB to 21.74 KB, saving 65.69 percent, using WP-Optimize 
+[2023-11-08 03:58:52 : INFO] - Completed processing task with ID : 53, and type 'smush' 
+[2023-11-08 03:58:52 : INFO] - Lock option (updraft_lock_smush, wp_options) released 
+[2023-11-08 03:58:52 : INFO] - Successfully processed the queue (smush). 1 tasks were processed out of 1. 
+[2023-11-08 03:58:52 : INFO] - Lock option (updraft_lock_smush, wp_options) was deleted from the database 
+[2023-11-08 03:58:52 : INFO] - Cleaning up tasks of type (smush). A total of 1 tasks will be deleted. 
+[2023-11-08 04:32:29 : INFO] - Re_Smush_It_Task with attachment ID : 231, autocreated on : November 08, 2023 04:32:29 
+[2023-11-08 04:37:31 : INFO] - A total of 1 tasks of type smush found and will be processed in this iteration 
+[2023-11-08 04:37:31 : DEBUG] - Lock option (updraft_lock_smush, wp_options) was created in the database 
+[2023-11-08 04:37:31 : INFO] - Lock (updraft_lock_smush, wp_options) acquired after initialising the database 
+[2023-11-08 04:37:32 : INFO] - Processing task with ID : 54, and type 'smush' 
+[2023-11-08 04:37:32 : INFO] - Re_Smush_It_Task with attachment ID : 231, autocreated on : November 08, 2023 04:32:29 
+[2023-11-08 04:37:32 : INFO] - File: A-logo.png, Compression quality: 92 
+[2023-11-08 04:37:34 : INFO] - Backing up the original image - 2023/11/A-logo-updraft-pre-smush-original.png 
+[2023-11-08 04:37:34 : INFO] - There were no WebP conversion tools found on your server. 
+[2023-11-08 04:37:34 : INFO] - Successfully optimized the image - C:\xampp\htdocs\alate/wp-content/uploads/2023/11/A-logo.png.The file was compressed from 31.87 KB to 12.21 KB, saving 61.69 percent, using WP-Optimize 
+[2023-11-08 04:37:34 : INFO] - Completed processing task with ID : 54, and type 'smush' 
+[2023-11-08 04:37:34 : INFO] - Lock option (updraft_lock_smush, wp_options) released 
+[2023-11-08 04:37:34 : INFO] - Successfully processed the queue (smush). 1 tasks were processed out of 1. 
+[2023-11-08 04:37:34 : INFO] - Lock option (updraft_lock_smush, wp_options) was deleted from the database 
+[2023-11-08 04:37:34 : INFO] - Cleaning up tasks of type (smush). A total of 1 tasks will be deleted. 

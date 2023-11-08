@@ -61,6 +61,9 @@ ul.menu-pc {
   gap: 50px;
   cursor: pointer;
 }
+.menu-pc > li {
+  padding: 10px 20px;
+}
 
 .menu-pc li a {
   text-transform: uppercase;
@@ -89,4 +92,56 @@ ul.menu-pc {
   padding: 12px;
   text-align: center;
   font-size: 14px;
+}
+
+#menu-item-230 {
+  position: relative;
+}
+
+#menu-item-230 > .sub-menu {
+  position: absolute;
+  bottom: 0;
+  transform: translateY(100%);
+  padding-left: 0;
+  width: max-content;
+  right: 0;
+  z-index: 2000;
+  background-color: #fff;
+  box-shadow: 0 0 5px 0;
+  display: none;
+}
+
+#menu-item-230::after {
+  content: "\f107";
+  font-family: "Font Awesome 6 Free";
+  position: absolute;
+  right: 0;
+  font-weight: 600;
+}
+#menu-item-230:hover > .sub-menu {
+  display: block;
+}
+
+#menu-item-230 > .sub-menu li {
+  padding: 10px 30px;
+  transition: 0.3s ease;
+}
+
+#menu-item-230 > .sub-menu li:hover {
+  background-color: #004175;
+}
+
+#menu-item-230 > .sub-menu li:hover a {
+  color: #fff;
+}
+#menu-item-230 > .sub-menu li a {
+  transition: 0.3s ease;
+}
+
+.current-menu-item {
+  background-color: #062d4c;
+  color: #fff;
+}
+.menu-pc .current-menu-item a {
+  color: #fff;
 }
