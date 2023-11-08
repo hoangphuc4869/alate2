@@ -58,6 +58,7 @@
         </div>
         <div class="col-lg-4">
             <div class="booking">
+                <p class="booking-title">Booking Your Room</p>
                 <?php echo do_shortcode('[contact-form-7 id="c9c5e0e" title="booking"]')?>
             </div>
         </div>
