@@ -16,6 +16,55 @@
     </div>
 </div>
 
+<div class="container searching-form">
+    <div class="row justify-content-center align-items-center">
+        <div class="col-lg-2">
+            <div class="destination">
+                <div class="search-item-title">
+                    Điểm đến
+                </div>
+                <input type="text" name="" id="">
+            </div>
+        </div>
+        <div class="col-lg-2">
+            <div class="destination">
+                <div class="search-item-title">
+                    Check-in
+                </div>
+                <input type="text" name="" id="">
+            </div>
+        </div>
+        <div class="col-lg-2">
+            <div class="destination">
+                <div class="search-item-title">
+                    Check-out
+                </div>
+                <input type="text" name="" id="">
+            </div>
+        </div>
+        <div class="col-lg-2">
+            <div class="destination">
+                <div class="search-item-title">
+                    Người lớn
+                </div>
+                <input type="text" name="" id="">
+            </div>
+        </div>
+        <div class="col-lg-2">
+            <div class="destination">
+                <div class="search-item-title">
+                    Trẻ em
+                </div>
+                <input type="text" name="" id="">
+            </div>
+        </div>
+        <div class="col-lg-2 d-flex justify-content-center align-items-center ">
+            <input type="submit" value="Search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+    </div>
+</div>
+
 <div class="container intro-alate">
     <div class="intro-title"><?php echo get_field('alate-intro-text') ?></div>
     <div class="intro-text">
@@ -60,7 +109,7 @@
             <div class="brand-cate">
                 <img src="<?php echo get_sub_field('img')?>" alt="" class="w-100 img-fluid" />
                 <div class="brand-cate-text">
-                    <a href="#">
+                    <a href="<?php echo get_sub_field('link')?>">
                         <?php echo get_sub_field('name')?>
                     </a>
                 </div>

@@ -3,7 +3,8 @@
     <?php if(have_rows('manage')): while(have_rows('manage')): the_row(); ?>
     <div class="brand row">
         <div class="col-lg-4 brand-text">
-            <div class="b-t-title"><?php echo get_sub_field('name') ?></div>
+            <div class="b-t-title"><a href="<?php echo get_sub_field('link') ?>"><?php echo get_sub_field('name') ?></a>
+            </div>
             <p>
                 <?php echo get_sub_field('des') ?>
             </p>

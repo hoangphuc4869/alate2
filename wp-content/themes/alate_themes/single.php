@@ -11,10 +11,10 @@
 
         <?php endwhile;endif ?>
     </div>
-    <div class="row">
+    <div class="row booking-details">
         <div class="col-lg-8">
             <div class="room-detail">
-                <div class="room-name"><?php the_title() ?></div>
+                <div class="room-name"> <a href="<?php the_permalink() ?>"><?php the_title() ?></a></div>
                 <div class="room-info">
                     <span>
                         <img src="<?php echo get_field('dien-tich-img') ?>" alt="" />

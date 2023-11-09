@@ -154,6 +154,51 @@ span.text-label {
   border: none;
   border-bottom: 1px solid;
   background-color: #f5f5f5;
+  width: 100%;
+}
+.destination input[type="text"] {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #062d4c;
+  padding: 10px 5px;
+}
+.searching-form input[type="submit"] {
+  height: 59px;
+  width: 59px;
+  background: #05285b;
+  border: none;
+  border-radius: 4px;
+  color: #05285b;
+  position: relative;
+}
+
+.container.searching-form {
+  padding: 40px;
+  background: #fff;
+  border-radius: 8px;
+  transform: translateY(-50%);
+  z-index: 23;
+  position: relative;
+}
+i.fa-solid.fa-magnifying-glass {
+  color: #fff;
+  font-size: 30px;
+  transform: translate(-44px);
+}
+
+.search-item-title {
+  color: #062d4c;
+  text-align: justify;
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+  text-transform: capitalize;
+}
+
+.booking-details {
+  margin-bottom: 100px;
 }
 
 .booking-title {
@@ -565,7 +610,7 @@ p#breadcrumbs {
   color: #fff;
 }
 
-.swiper-slide img {
+.ProjectSwiper .swiper-slide img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -791,7 +836,8 @@ img.tech-img.img-fluid {
   margin-bottom: 20px;
 }
 
-.room-name {
+.room-name a {
+  display: inline-block;
   color: #967331;
   text-align: justify;
 
@@ -914,6 +960,9 @@ img.tech-img.img-fluid {
   text-decoration: none;
   border-bottom: 1px solid #094bac;
 }
+.user-info img {
+  width: unset;
+}
 
 .RoomImgs .swiper-pagination-bullet.swiper-pagination-bullet-active {
   background: #062d4c;
@@ -930,7 +979,8 @@ img.tech-img.img-fluid {
   bottom: 30px;
 }
 
-.b-t-title {
+.b-t-title a {
+  display: inline-block;
   color: #062d4c;
 
   font-size: 34px;
@@ -1075,6 +1125,13 @@ img.tech-img.img-fluid {
     height: 300px;
     object-fit: cover;
     object-position: center;
+  }
+  .destination {
+    margin-bottom: 20px;
+  }
+  .container.searching-form {
+    transform: unset;
+    margin-top: 50px;
   }
   .key-img {
     width: 50%;
@@ -1247,7 +1304,7 @@ img.tech-img.img-fluid {
   .main-menu-wrap {
     padding: 15px 0 20px 0;
   }
-  .room-name {
+  .room-name a {
     font-size: 30px;
   }
   .grid-item:first-child {
