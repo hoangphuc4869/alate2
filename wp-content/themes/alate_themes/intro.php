@@ -7,7 +7,7 @@ get_header();
 
  ?>
 <div class="backgr-wrap">
-    <div class="about-us1 container">
+    <div class="about-us1 container wow animate__animated animate__rubberBand">
         <div class="row">
             <div class="col-lg-5 about-us-1-text-wrap">
                 <div class="svg-de2">
@@ -44,7 +44,7 @@ get_header();
         </div>
     </div>
 
-    <div class="about-us2 container">
+    <div class="about-us2 container wow animate__animated animate__rubberBand">
         <div class="row align-items-center">
             <div class="col-lg-7">
                 <div class="about-us-2-img">
@@ -76,12 +76,12 @@ get_header();
     </div>
 
     <div class="staff container">
-        <div class="staff-title"><?php echo get_field('staff-title')?></div>
+        <div class="staff-title wow animate__animated animate__swing"><?php echo get_field('staff-title')?></div>
 
         <div class="row">
             <?php if(have_rows('staff')): while(have_rows('staff')): the_row(); ?>
             <div class="col-lg-3 col-6">
-                <div class="staff-info">
+                <div class="staff-info wow animate__animated animate__flipInY">
                     <img src="<?php echo get_sub_field('img') ?>" alt="" class="w-100" />
                     <div class="staff-name"><?php echo get_sub_field('name') ?></div>
                     <div class="staff-position"><?php echo get_sub_field('position') ?></div>

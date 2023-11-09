@@ -1,7 +1,7 @@
 <?php /**template name: thuonghieu */ get_header() ?>
 <div class="running-brands container">
     <?php if(have_rows('manage')): while(have_rows('manage')): the_row(); ?>
-    <div class="brand row">
+    <div class="brand row wow animate__animated animate__jackInTheBox">
         <div class="col-lg-4 brand-text">
             <div class="b-t-title"><a href="<?php echo get_sub_field('link') ?>"><?php echo get_sub_field('name') ?></a>
             </div>

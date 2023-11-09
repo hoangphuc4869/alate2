@@ -418,7 +418,18 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
 .intro-img {
   margin-bottom: 12px;
 }
+.contact {
+  margin: 100px auto;
+}
+.contact .address span {
+  color: #062d4c;
+  text-align: center;
 
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 22.5px */
+}
 .project-dev-title,
 .key-title {
   color: #062d4c;

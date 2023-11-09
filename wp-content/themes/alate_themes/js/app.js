@@ -176,3 +176,7 @@ $(".selectNumber__increase").on("click", function (e) {
     $input.val($newValue);
   }
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+  new WOW().init();
+});

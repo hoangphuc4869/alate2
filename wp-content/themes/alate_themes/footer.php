@@ -8,17 +8,17 @@
                     </a>
                 </div>
                 <div class="col-lg-4">
-                    <div class="phone">
+                    <div class="phone wow animate__animated animate__flipInY">
                         <?php echo get_field('phone-text','option')?>
                         <span><?php echo get_field('phone','option')?></span>
                     </div>
-                    <div class="email">
+                    <div class="email wow animate__animated animate__flipInY">
                         <?php echo get_field('email-text','option')?>
                         <span><?php echo get_field('email','option')?></span>
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="address">
+                    <div class="address wow animate__animated animate__flipInY">
                         <?php echo get_field('address-text','option')?>
                         <span><?php echo get_field('address','option')?></span>
                     </div>
@@ -46,7 +46,7 @@
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/app.js"></script>
 <?php wp_footer() ?>
 </body>

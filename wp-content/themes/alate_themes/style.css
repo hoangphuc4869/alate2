@@ -31,9 +31,10 @@ a {
 }
 .sub-header a {
   color: #062d4c;
+  font-size: 14px;
 }
 i.fa-brands.fa-facebook {
-  font-size: 30px;
+  font-size: 25px;
 }
 .trp-language-switcher {
   width: fit-content !important;
